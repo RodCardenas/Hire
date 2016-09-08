@@ -59,11 +59,28 @@
         </header>
       </div>
 
-      <form action="https://formspree.io/rcardenas@utexas.edu" method="POST">
-        <input type="text" name="name">
-        <input type="email" name="_replyto">
-        <input type="submit" value="Send">
-      </form>
+      <div class="contact-form">
+        <form action="https://formspree.io/rcardenas@utexas.edu" method="POST">
+
+          <div class="top">
+            <div class="left">
+              <input type="subject" id="subject" name="_subject" placeholder="Subject">
+              <input id="name" type="text" name="name" placeholder="Name">
+              <input id="email" type="email" name="_replyto" placeholder="Email">
+            </div>
+
+            <div class="right">
+              <input id="description" type="textarea" name="description" placeholder="Project Description">
+            </div>
+          </div>
+
+          <div class="bottom">
+            <input class="submit" type="submit" value="Send">
+          </div>
+          
+          <input type="text" name="_gotcha" style="display:none" />
+        </form>
+      </div>
     </main>
 
 

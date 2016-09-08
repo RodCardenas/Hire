@@ -204,6 +204,99 @@ strong{
   font-weight: bold;
 }
 
+.contact-form{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-form form{
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact-form form .top{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-form form .left{
+  width: 40%;
+}
+
+.contact-form form .right{
+  width: 50%;
+}
+
+.contact-form form .bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.contact-form form input{
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  background: white;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 2em;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form form input:focus{
+  -moz-box-shadow: 0 0px 2px rgb(217, 83, 83);
+  -webkit-box-shadow: 0 0px 2px rgb(217, 83, 83);
+  box-shadow: 0 0px 2px rgb(217, 83, 83);
+}
+
+.contact-form #subject{
+
+}
+
+.contact-form #name{
+
+}
+
+.contact-form #email{
+
+}
+
+.contact-form #description{
+  height: 126px;
+  resize: vertical;
+  overflow: auto;
+}
+
+.contact-form form .submit{
+  margin: 10px 0 10px 0;
+  width: 20%;
+  color: white;
+  background: rgb(217, 83, 83);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form form .submit:hover, .contact-form form .submit:active{
+  -moz-box-shadow: 0 1px 1px 1px #9e1919;
+  -webkit-box-shadow: 0 1px 1px 1px #9e1919;
+  box-shadow: 0 1px 1px 1px #9e1919;
+}
+
 .footer-container{
   display: block;
   position: relative;
